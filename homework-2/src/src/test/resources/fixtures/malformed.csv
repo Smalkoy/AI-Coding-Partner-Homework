@@ -1,0 +1,4 @@
+customer_id,customer_email,customer_name,subject,description
+"unclosed quote,email@test.com,Name,Subject,Description
+CUST001,email@test.com,Name,"Subject with
+newline",Description

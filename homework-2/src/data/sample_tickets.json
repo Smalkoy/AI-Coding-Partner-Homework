@@ -1,0 +1,322 @@
+[
+  {
+    "customer_id": "CUST101",
+    "customer_email": "alice.johnson@example.com",
+    "customer_name": "Alice Johnson",
+    "subject": "Cannot access premium features",
+    "description": "I upgraded to premium yesterday but still cannot access the premium features. My payment was processed successfully according to my bank statement.",
+    "category": "account_access",
+    "priority": "high",
+    "status": "new",
+    "tags": ["premium", "upgrade", "access"],
+    "metadata": {
+      "source": "web_form",
+      "browser": "Chrome 120",
+      "device_type": "desktop"
+    }
+  },
+  {
+    "customer_id": "CUST102",
+    "customer_email": "bob.williams@techstart.io",
+    "customer_name": "Bob Williams",
+    "subject": "API returns 503 errors randomly",
+    "description": "Our integration with your API is experiencing random 503 Service Unavailable errors. This happens about 10 percent of the time and is affecting our production system.",
+    "category": "technical_issue",
+    "priority": "urgent",
+    "status": "in_progress",
+    "tags": ["api", "503", "integration", "critical"],
+    "metadata": {
+      "source": "api",
+      "browser": null,
+      "device_type": null
+    }
+  },
+  {
+    "customer_id": "CUST103",
+    "customer_email": "carol.martinez@enterprise.com",
+    "customer_name": "Carol Martinez",
+    "subject": "Incorrect charge on my account",
+    "description": "I was charged $199 instead of $99 for my monthly plan. I am on the Starter plan but was charged the Professional rate. Please issue a refund for the difference.",
+    "category": "billing_question",
+    "priority": "high",
+    "status": "new",
+    "tags": ["overcharge", "refund", "billing"],
+    "metadata": {
+      "source": "email",
+      "browser": null,
+      "device_type": null
+    }
+  },
+  {
+    "customer_id": "CUST104",
+    "customer_email": "daniel.garcia@startup.net",
+    "customer_name": "Daniel Garcia",
+    "subject": "Request for Slack integration",
+    "description": "It would be incredibly useful to have Slack integration for notifications. Currently I have to check the dashboard manually which is not efficient.",
+    "category": "feature_request",
+    "priority": "medium",
+    "status": "new",
+    "tags": ["slack", "integration", "notifications"],
+    "metadata": {
+      "source": "web_form",
+      "browser": "Firefox 121",
+      "device_type": "desktop"
+    }
+  },
+  {
+    "customer_id": "CUST105",
+    "customer_email": "emma.rodriguez@agency.com",
+    "customer_name": "Emma Rodriguez",
+    "subject": "Charts not rendering on Safari",
+    "description": "All charts and graphs appear blank when using Safari browser. This works fine on Chrome and Firefox. Steps to reproduce: Open any dashboard with charts in Safari 17.",
+    "category": "bug_report",
+    "priority": "medium",
+    "status": "new",
+    "tags": ["safari", "charts", "rendering", "browser-bug"],
+    "metadata": {
+      "source": "web_form",
+      "browser": "Safari 17",
+      "device_type": "desktop"
+    }
+  },
+  {
+    "customer_id": "CUST106",
+    "customer_email": "frank.hernandez@corp.io",
+    "customer_name": "Frank Hernandez",
+    "subject": "Account suspended without notice",
+    "description": "My account was suspended and I received no email or notification about it. I need access immediately as I have a deadline tomorrow. This is critical for my business.",
+    "category": "account_access",
+    "priority": "urgent",
+    "status": "in_progress",
+    "tags": ["suspended", "urgent", "no-notification"],
+    "metadata": {
+      "source": "phone",
+      "browser": null,
+      "device_type": null
+    }
+  },
+  {
+    "customer_id": "CUST107",
+    "customer_email": "grace.lee@business.net",
+    "customer_name": "Grace Lee",
+    "subject": "WebSocket connections dropping",
+    "description": "Real-time updates are not working because WebSocket connections keep dropping every few minutes. We have to refresh the page constantly to see new data.",
+    "category": "technical_issue",
+    "priority": "high",
+    "status": "new",
+    "tags": ["websocket", "realtime", "connection"],
+    "metadata": {
+      "source": "web_form",
+      "browser": "Chrome 120",
+      "device_type": "desktop"
+    }
+  },
+  {
+    "customer_id": "CUST108",
+    "customer_email": "henry.chen@freelance.io",
+    "customer_name": "Henry Chen",
+    "subject": "Need VAT invoice",
+    "description": "I need a VAT invoice for all my payments from this year for tax purposes. The current invoices do not show VAT separately. My VAT number is GB123456789.",
+    "category": "billing_question",
+    "priority": "medium",
+    "status": "waiting_customer",
+    "tags": ["vat", "invoice", "tax"],
+    "metadata": {
+      "source": "email",
+      "browser": null,
+      "device_type": null
+    }
+  },
+  {
+    "customer_id": "CUST109",
+    "customer_email": "isabella.kim@tech.com",
+    "customer_name": "Isabella Kim",
+    "subject": "Batch operations feature",
+    "description": "We need the ability to perform batch operations on multiple items at once. Currently we have to process items one by one which is very time consuming for large datasets.",
+    "category": "feature_request",
+    "priority": "high",
+    "status": "new",
+    "tags": ["batch", "bulk", "efficiency"],
+    "metadata": {
+      "source": "web_form",
+      "browser": "Chrome 120",
+      "device_type": "desktop"
+    }
+  },
+  {
+    "customer_id": "CUST110",
+    "customer_email": "jack.thompson@company.org",
+    "customer_name": "Jack Thompson",
+    "subject": "Duplicate records being created",
+    "description": "When I click save the system creates duplicate records. Happens about 50 percent of the time. I now have many duplicate entries that need to be cleaned up.",
+    "category": "bug_report",
+    "priority": "high",
+    "status": "in_progress",
+    "tags": ["duplicate", "save", "data-integrity"],
+    "metadata": {
+      "source": "web_form",
+      "browser": "Firefox 121",
+      "device_type": "desktop"
+    }
+  },
+  {
+    "customer_id": "CUST111",
+    "customer_email": "kate.wilson@startup.co",
+    "customer_name": "Kate Wilson",
+    "subject": "Two accounts merged incorrectly",
+    "description": "I had two accounts and requested a merge but some data from my secondary account was lost. Can you restore the missing projects and contacts?",
+    "category": "account_access",
+    "priority": "high",
+    "status": "in_progress",
+    "tags": ["merge", "data-loss", "accounts"],
+    "metadata": {
+      "source": "web_form",
+      "browser": "Safari 17",
+      "device_type": "desktop"
+    }
+  },
+  {
+    "customer_id": "CUST112",
+    "customer_email": "liam.brown@enterprise.net",
+    "customer_name": "Liam Brown",
+    "subject": "LDAP authentication failing",
+    "description": "LDAP authentication stopped working after your latest update. Our entire team cannot log in using their corporate credentials. This is blocking all work.",
+    "category": "technical_issue",
+    "priority": "urgent",
+    "status": "in_progress",
+    "tags": ["ldap", "authentication", "blocking", "corporate"],
+    "metadata": {
+      "source": "api",
+      "browser": null,
+      "device_type": null
+    }
+  },
+  {
+    "customer_id": "CUST113",
+    "customer_email": "mia.davis@agency.io",
+    "customer_name": "Mia Davis",
+    "subject": "Subscription renewal failed",
+    "description": "My subscription renewal failed even though I have sufficient funds and my card is valid. I do not want to lose access to my data.",
+    "category": "billing_question",
+    "priority": "high",
+    "status": "new",
+    "tags": ["renewal", "payment", "subscription"],
+    "metadata": {
+      "source": "web_form",
+      "browser": "Chrome 120",
+      "device_type": "mobile"
+    }
+  },
+  {
+    "customer_id": "CUST114",
+    "customer_email": "noah.miller@business.com",
+    "customer_name": "Noah Miller",
+    "subject": "Custom branding options",
+    "description": "We would like to customize the branding with our company logo and colors. Is this possible on the Enterprise plan? If so how do we set it up?",
+    "category": "feature_request",
+    "priority": "low",
+    "status": "new",
+    "tags": ["branding", "customization", "enterprise"],
+    "metadata": {
+      "source": "chat",
+      "browser": null,
+      "device_type": "desktop"
+    }
+  },
+  {
+    "customer_id": "CUST115",
+    "customer_email": "olivia.moore@corp.com",
+    "customer_name": "Olivia Moore",
+    "subject": "Timezone display incorrect",
+    "description": "All timestamps are showing in UTC instead of my local timezone even though I have set it correctly in settings. This is causing confusion with scheduled tasks.",
+    "category": "bug_report",
+    "priority": "medium",
+    "status": "new",
+    "tags": ["timezone", "settings", "display"],
+    "metadata": {
+      "source": "web_form",
+      "browser": "Chrome 120",
+      "device_type": "desktop"
+    }
+  },
+  {
+    "customer_id": "CUST116",
+    "customer_email": "peter.taylor@freelance.net",
+    "customer_name": "Peter Taylor",
+    "subject": "Cannot add team members",
+    "description": "When I try to invite team members I get an error saying email already in use but they have never signed up. We checked and these emails are definitely not registered.",
+    "category": "account_access",
+    "priority": "medium",
+    "status": "new",
+    "tags": ["team", "invite", "error"],
+    "metadata": {
+      "source": "web_form",
+      "browser": "Firefox 121",
+      "device_type": "desktop"
+    }
+  },
+  {
+    "customer_id": "CUST117",
+    "customer_email": "quinn.jackson@tech.io",
+    "customer_name": "Quinn Jackson",
+    "subject": "Webhook delivery delays",
+    "description": "Our webhook notifications are being delayed by 10 to 15 minutes. We need these to be near real-time for our workflow automation to work properly.",
+    "category": "technical_issue",
+    "priority": "high",
+    "status": "new",
+    "tags": ["webhook", "delay", "automation"],
+    "metadata": {
+      "source": "api",
+      "browser": null,
+      "device_type": null
+    }
+  },
+  {
+    "customer_id": "CUST118",
+    "customer_email": "rachel.white@company.net",
+    "customer_name": "Rachel White",
+    "subject": "Request itemized billing",
+    "description": "Can I get itemized billing that shows usage breakdown per user? This would help with our internal cost allocation and budgeting.",
+    "category": "billing_question",
+    "priority": "low",
+    "status": "new",
+    "tags": ["itemized", "billing", "usage"],
+    "metadata": {
+      "source": "email",
+      "browser": null,
+      "device_type": null
+    }
+  },
+  {
+    "customer_id": "CUST119",
+    "customer_email": "sam.harris@startup.com",
+    "customer_name": "Sam Harris",
+    "subject": "GitLab integration needed",
+    "description": "We use GitLab instead of GitHub. It would be great to have GitLab integration for automatic deployments. Currently only GitHub is supported.",
+    "category": "feature_request",
+    "priority": "medium",
+    "status": "new",
+    "tags": ["gitlab", "integration", "deployment"],
+    "metadata": {
+      "source": "web_form",
+      "browser": "Chrome 120",
+      "device_type": "desktop"
+    }
+  },
+  {
+    "customer_id": "CUST120",
+    "customer_email": "tina.anderson@enterprise.io",
+    "customer_name": "Tina Anderson",
+    "subject": "File preview not loading",
+    "description": "PDF and image previews are not loading. I just see a loading spinner that never completes. Have to download files to view them which is inconvenient.",
+    "category": "bug_report",
+    "priority": "medium",
+    "status": "new",
+    "tags": ["preview", "files", "loading"],
+    "metadata": {
+      "source": "web_form",
+      "browser": "Safari 17",
+      "device_type": "tablet"
+    }
+  }
+]
