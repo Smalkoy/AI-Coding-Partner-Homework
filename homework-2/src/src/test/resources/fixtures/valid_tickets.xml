@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets>
+    <ticket>
+        <customer_id>CUST001</customer_id>
+        <customer_email>xml.user1@example.com</customer_email>
+        <customer_name>XML User One</customer_name>
+        <subject>Login issues after password change</subject>
+        <description>After changing my password, I cannot login anymore. The system says my credentials are invalid.</description>
+        <category>account_access</category>
+        <priority>high</priority>
+        <status>new</status>
+        <assigned_to>agent1</assigned_to>
+        <tags>
+            <tag>login</tag>
+            <tag>password</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Chrome 120</browser>
+            <device_type>desktop</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST002</customer_id>
+        <customer_email>xml.user2@example.com</customer_email>
+        <customer_name>XML User Two</customer_name>
+        <subject>System crash when generating reports</subject>
+        <description>The application crashes every time I try to generate a monthly report. This is a critical bug that is blocking my work.</description>
+        <category>bug_report</category>
+        <priority>urgent</priority>
+        <status>in_progress</status>
+        <tags>
+            <tag>crash</tag>
+            <tag>reports</tag>
+        </tags>
+        <metadata>
+            <source>email</source>
+            <device_type>desktop</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST003</customer_id>
+        <customer_email>xml.user3@example.com</customer_email>
+        <customer_name>XML User Three</customer_name>
+        <subject>Question about subscription pricing</subject>
+        <description>I would like to know more about your subscription plans and pricing. Can you provide details about the enterprise plan?</description>
+        <category>billing_question</category>
+        <priority>low</priority>
+        <status>new</status>
+        <metadata>
+            <source>chat</source>
+            <browser>Firefox 121</browser>
+            <device_type>tablet</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST004</customer_id>
+        <customer_email>xml.user4@example.com</customer_email>
+        <customer_name>XML User Four</customer_name>
+        <subject>Enhancement request for dashboard</subject>
+        <description>Would be nice to have customizable widgets on the dashboard. This would allow users to personalize their experience.</description>
+        <category>feature_request</category>
+        <priority>medium</priority>
+        <status>new</status>
+        <tags>
+            <tag>dashboard</tag>
+            <tag>enhancement</tag>
+        </tags>
+        <metadata>
+            <source>api</source>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST005</customer_id>
+        <customer_email>xml.user5@example.com</customer_email>
+        <customer_name>XML User Five</customer_name>
+        <subject>Slow performance on mobile</subject>
+        <description>The mobile app is extremely slow when loading the main screen. It takes more than 10 seconds to load.</description>
+        <category>technical_issue</category>
+        <priority>high</priority>
+        <status>waiting_customer</status>
+        <assigned_to>agent2</assigned_to>
+        <tags>
+            <tag>performance</tag>
+            <tag>mobile</tag>
+        </tags>
+        <metadata>
+            <source>phone</source>
+            <device_type>mobile</device_type>
+        </metadata>
+    </ticket>
+</tickets>

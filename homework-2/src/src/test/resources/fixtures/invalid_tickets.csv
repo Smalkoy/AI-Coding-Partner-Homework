@@ -1,0 +1,9 @@
+customer_id,customer_email,customer_name,subject,description,category,priority,status
+,valid@email.com,Test User,Valid Subject,This is a valid description text.,other,medium,new
+CUST001,invalid-email,Test User,Valid Subject,This is a valid description text.,other,medium,new
+CUST002,valid@email.com,,Valid Subject,This is a valid description text.,other,medium,new
+CUST003,valid@email.com,Test User,,This is a valid description text.,other,medium,new
+CUST004,valid@email.com,Test User,Valid Subject,Short,other,medium,new
+CUST005,valid@email.com,Test User,Valid Subject,This is a valid description text.,invalid_category,medium,new
+CUST006,valid@email.com,Test User,Valid Subject,This is a valid description text.,other,invalid_priority,new
+CUST007,valid@email.com,Test User,Valid Subject,This is a valid description text.,other,medium,invalid_status

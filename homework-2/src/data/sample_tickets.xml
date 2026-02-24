@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets>
+    <ticket>
+        <customer_id>CUST201</customer_id>
+        <customer_email>adam.scott@example.com</customer_email>
+        <customer_name>Adam Scott</customer_name>
+        <subject>Unable to reset password</subject>
+        <description>The password reset link expires before I can use it. I have tried three times and each time the link says it has expired even though I click it immediately.</description>
+        <category>account_access</category>
+        <priority>urgent</priority>
+        <status>new</status>
+        <tags>
+            <tag>password</tag>
+            <tag>reset</tag>
+            <tag>expired</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Chrome 120</browser>
+            <device_type>desktop</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST202</customer_id>
+        <customer_email>beth.young@techcorp.io</customer_email>
+        <customer_name>Beth Young</customer_name>
+        <subject>Application freezes during file operations</subject>
+        <description>The entire application freezes for several seconds whenever I perform file operations like copy or move. This makes the application nearly unusable.</description>
+        <category>technical_issue</category>
+        <priority>high</priority>
+        <status>in_progress</status>
+        <tags>
+            <tag>freeze</tag>
+            <tag>files</tag>
+            <tag>performance</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Firefox 121</browser>
+            <device_type>desktop</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST203</customer_id>
+        <customer_email>charlie.brown@startup.net</customer_email>
+        <customer_name>Charlie Brown</customer_name>
+        <subject>Charged after cancellation</subject>
+        <description>I cancelled my subscription two weeks ago but was still charged this month. I have the cancellation confirmation email as proof.</description>
+        <category>billing_question</category>
+        <priority>high</priority>
+        <status>new</status>
+        <tags>
+            <tag>cancellation</tag>
+            <tag>refund</tag>
+            <tag>billing</tag>
+        </tags>
+        <metadata>
+            <source>email</source>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST204</customer_id>
+        <customer_email>diana.prince@enterprise.com</customer_email>
+        <customer_name>Diana Prince</customer_name>
+        <subject>Analytics dashboard request</subject>
+        <description>Would be helpful to have an analytics dashboard showing usage metrics and trends over time. Currently there is no way to track our team productivity.</description>
+        <category>feature_request</category>
+        <priority>medium</priority>
+        <status>new</status>
+        <tags>
+            <tag>analytics</tag>
+            <tag>dashboard</tag>
+            <tag>metrics</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Chrome 120</browser>
+            <device_type>desktop</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST205</customer_id>
+        <customer_email>edward.kent@company.org</customer_email>
+        <customer_name>Edward Kent</customer_name>
+        <subject>Export fails for large datasets</subject>
+        <description>When exporting more than 1000 records the export fails with no error message. Steps to reproduce: filter to show 1500 records then click export CSV.</description>
+        <category>bug_report</category>
+        <priority>high</priority>
+        <status>new</status>
+        <tags>
+            <tag>export</tag>
+            <tag>bug</tag>
+            <tag>large-data</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Safari 17</browser>
+            <device_type>desktop</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST206</customer_id>
+        <customer_email>fiona.green@agency.io</customer_email>
+        <customer_name>Fiona Green</customer_name>
+        <subject>Account showing wrong subscription</subject>
+        <description>My account shows I am on the Free plan but I have been paying for Professional for six months. Please check and correct my subscription status.</description>
+        <category>account_access</category>
+        <priority>high</priority>
+        <status>in_progress</status>
+        <tags>
+            <tag>subscription</tag>
+            <tag>plan</tag>
+            <tag>incorrect</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Chrome 120</browser>
+            <device_type>mobile</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST207</customer_id>
+        <customer_email>george.black@business.net</customer_email>
+        <customer_name>George Black</customer_name>
+        <subject>Email notifications delayed</subject>
+        <description>Email notifications are arriving 2 to 3 hours after the actual events. This defeats the purpose of notifications as the information is no longer timely.</description>
+        <category>technical_issue</category>
+        <priority>medium</priority>
+        <status>new</status>
+        <tags>
+            <tag>email</tag>
+            <tag>notifications</tag>
+            <tag>delay</tag>
+        </tags>
+        <metadata>
+            <source>email</source>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST208</customer_id>
+        <customer_email>helen.white@corp.com</customer_email>
+        <customer_name>Helen White</customer_name>
+        <subject>Question about team pricing</subject>
+        <description>If we upgrade to the Team plan can we add users later? Or do we need to commit to a specific number upfront? Also is there a discount for non-profits?</description>
+        <category>billing_question</category>
+        <priority>low</priority>
+        <status>new</status>
+        <tags>
+            <tag>pricing</tag>
+            <tag>team</tag>
+            <tag>non-profit</tag>
+        </tags>
+        <metadata>
+            <source>chat</source>
+            <device_type>desktop</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST209</customer_id>
+        <customer_email>ivan.ross@freelance.co</customer_email>
+        <customer_name>Ivan Ross</customer_name>
+        <subject>Version history feature</subject>
+        <description>Need ability to view and restore previous versions of documents. Accidentally overwrote important content and have no way to recover it.</description>
+        <category>feature_request</category>
+        <priority>high</priority>
+        <status>new</status>
+        <tags>
+            <tag>version</tag>
+            <tag>history</tag>
+            <tag>recovery</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Firefox 121</browser>
+            <device_type>desktop</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST210</customer_id>
+        <customer_email>julia.hart@tech.io</customer_email>
+        <customer_name>Julia Hart</customer_name>
+        <subject>Filter combinations not working</subject>
+        <description>When I apply multiple filters only the last one takes effect. For example filtering by date AND status only filters by status ignoring the date.</description>
+        <category>bug_report</category>
+        <priority>medium</priority>
+        <status>new</status>
+        <tags>
+            <tag>filter</tag>
+            <tag>bug</tag>
+            <tag>search</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Chrome 120</browser>
+            <device_type>desktop</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST211</customer_id>
+        <customer_email>kevin.stone@startup.io</customer_email>
+        <customer_name>Kevin Stone</customer_name>
+        <subject>MFA codes not working</subject>
+        <description>My authenticator app shows codes but they are never accepted. I have tried syncing time on my phone and regenerating the codes but nothing works.</description>
+        <category>account_access</category>
+        <priority>urgent</priority>
+        <status>in_progress</status>
+        <tags>
+            <tag>mfa</tag>
+            <tag>authenticator</tag>
+            <tag>login</tag>
+        </tags>
+        <metadata>
+            <source>phone</source>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST212</customer_id>
+        <customer_email>laura.day@enterprise.net</customer_email>
+        <customer_name>Laura Day</customer_name>
+        <subject>High latency from EU region</subject>
+        <description>Response times from our EU office are very slow averaging 3 to 5 seconds per request. From US office the same requests take under 500ms.</description>
+        <category>technical_issue</category>
+        <priority>high</priority>
+        <status>new</status>
+        <tags>
+            <tag>latency</tag>
+            <tag>eu</tag>
+            <tag>performance</tag>
+        </tags>
+        <metadata>
+            <source>api</source>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST213</customer_id>
+        <customer_email>mark.hill@company.com</customer_email>
+        <customer_name>Mark Hill</customer_name>
+        <subject>Credit card declined incorrectly</subject>
+        <description>My credit card keeps getting declined but it works everywhere else. The bank says there is no issue on their end. Have tried three different cards.</description>
+        <category>billing_question</category>
+        <priority>medium</priority>
+        <status>in_progress</status>
+        <tags>
+            <tag>payment</tag>
+            <tag>card</tag>
+            <tag>declined</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Safari 17</browser>
+            <device_type>desktop</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST214</customer_id>
+        <customer_email>nancy.ford@agency.com</customer_email>
+        <customer_name>Nancy Ford</customer_name>
+        <subject>Audit log feature</subject>
+        <description>We need an audit log showing who made what changes and when. This is a compliance requirement for our industry and we cannot use the platform without it.</description>
+        <category>feature_request</category>
+        <priority>urgent</priority>
+        <status>new</status>
+        <tags>
+            <tag>audit</tag>
+            <tag>compliance</tag>
+            <tag>logging</tag>
+        </tags>
+        <metadata>
+            <source>email</source>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST215</customer_id>
+        <customer_email>oscar.palm@business.io</customer_email>
+        <customer_name>Oscar Palm</customer_name>
+        <subject>Calendar events duplicating</subject>
+        <description>Every time I sync my calendar events get duplicated. Now I have 5 copies of every event. Very difficult to manage my schedule like this.</description>
+        <category>bug_report</category>
+        <priority>high</priority>
+        <status>in_progress</status>
+        <tags>
+            <tag>calendar</tag>
+            <tag>sync</tag>
+            <tag>duplicate</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Chrome 120</browser>
+            <device_type>mobile</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST216</customer_id>
+        <customer_email>paula.reed@corp.net</customer_email>
+        <customer_name>Paula Reed</customer_name>
+        <subject>Cannot change username</subject>
+        <description>The change username option is missing from my account settings. I got married and need to update my username to reflect my new name.</description>
+        <category>account_access</category>
+        <priority>low</priority>
+        <status>new</status>
+        <tags>
+            <tag>username</tag>
+            <tag>change</tag>
+            <tag>settings</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Firefox 121</browser>
+            <device_type>desktop</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST217</customer_id>
+        <customer_email>quinn.nash@freelance.net</customer_email>
+        <customer_name>Quinn Nash</customer_name>
+        <subject>Rate limiting too aggressive</subject>
+        <description>The API rate limiting is too aggressive. We hit the limit doing normal operations. Currently limited to 100 requests per minute which is not enough.</description>
+        <category>technical_issue</category>
+        <priority>medium</priority>
+        <status>new</status>
+        <tags>
+            <tag>api</tag>
+            <tag>rate-limit</tag>
+            <tag>throttling</tag>
+        </tags>
+        <metadata>
+            <source>api</source>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST218</customer_id>
+        <customer_email>rachel.vega@tech.com</customer_email>
+        <customer_name>Rachel Vega</customer_name>
+        <subject>Invoice address change</subject>
+        <description>Need to change the billing address on our invoices. We moved offices and the old address is no longer valid. How do I update this?</description>
+        <category>billing_question</category>
+        <priority>low</priority>
+        <status>new</status>
+        <tags>
+            <tag>invoice</tag>
+            <tag>address</tag>
+            <tag>update</tag>
+        </tags>
+        <metadata>
+            <source>chat</source>
+            <device_type>mobile</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST219</customer_id>
+        <customer_email>steve.cole@startup.com</customer_email>
+        <customer_name>Steve Cole</customer_name>
+        <subject>SSO with Okta</subject>
+        <description>We use Okta for SSO across our organization. Would be great to have Okta integration so our team can use single sign-on.</description>
+        <category>feature_request</category>
+        <priority>medium</priority>
+        <status>new</status>
+        <tags>
+            <tag>sso</tag>
+            <tag>okta</tag>
+            <tag>integration</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Chrome 120</browser>
+            <device_type>desktop</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST220</customer_id>
+        <customer_email>tara.moon@company.io</customer_email>
+        <customer_name>Tara Moon</customer_name>
+        <subject>Rich text editor losing formatting</subject>
+        <description>When I save content the rich text formatting like bold and bullet points gets lost. Have to reformat everything after each save.</description>
+        <category>bug_report</category>
+        <priority>medium</priority>
+        <status>new</status>
+        <tags>
+            <tag>editor</tag>
+            <tag>formatting</tag>
+            <tag>bug</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Safari 17</browser>
+            <device_type>tablet</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST221</customer_id>
+        <customer_email>ursula.wave@enterprise.io</customer_email>
+        <customer_name>Ursula Wave</customer_name>
+        <subject>Account recovery without email access</subject>
+        <description>I no longer have access to the email address associated with my account as I left that company. How can I recover my personal account?</description>
+        <category>account_access</category>
+        <priority>medium</priority>
+        <status>waiting_customer</status>
+        <tags>
+            <tag>recovery</tag>
+            <tag>email</tag>
+            <tag>account</tag>
+        </tags>
+        <metadata>
+            <source>email</source>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST222</customer_id>
+        <customer_email>victor.snow@agency.net</customer_email>
+        <customer_name>Victor Snow</customer_name>
+        <subject>PDF generation slow</subject>
+        <description>Generating PDF reports takes over 2 minutes for documents with just 20 pages. This used to be much faster before the last update.</description>
+        <category>technical_issue</category>
+        <priority>medium</priority>
+        <status>new</status>
+        <tags>
+            <tag>pdf</tag>
+            <tag>slow</tag>
+            <tag>reports</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Chrome 120</browser>
+            <device_type>desktop</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST223</customer_id>
+        <customer_email>wendy.lake@business.com</customer_email>
+        <customer_name>Wendy Lake</customer_name>
+        <subject>Currency conversion question</subject>
+        <description>We are billed in USD but our finance team needs invoices in EUR. Can you convert the invoices to EUR or do we need to do this ourselves?</description>
+        <category>billing_question</category>
+        <priority>low</priority>
+        <status>new</status>
+        <tags>
+            <tag>currency</tag>
+            <tag>invoice</tag>
+            <tag>conversion</tag>
+        </tags>
+        <metadata>
+            <source>chat</source>
+            <device_type>desktop</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST224</customer_id>
+        <customer_email>xavier.bloom@corp.io</customer_email>
+        <customer_name>Xavier Bloom</customer_name>
+        <subject>API documentation improvements</subject>
+        <description>The API documentation is missing examples for many endpoints. Would be very helpful to have request and response examples for every endpoint.</description>
+        <category>feature_request</category>
+        <priority>low</priority>
+        <status>new</status>
+        <tags>
+            <tag>api</tag>
+            <tag>documentation</tag>
+            <tag>examples</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Firefox 121</browser>
+            <device_type>desktop</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST225</customer_id>
+        <customer_email>yolanda.cruz@freelance.io</customer_email>
+        <customer_name>Yolanda Cruz</customer_name>
+        <subject>Drag and drop not working on Firefox</subject>
+        <description>The drag and drop functionality does not work at all on Firefox. Items cannot be reordered. Works fine on Chrome.</description>
+        <category>bug_report</category>
+        <priority>low</priority>
+        <status>new</status>
+        <tags>
+            <tag>firefox</tag>
+            <tag>drag-drop</tag>
+            <tag>browser</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Firefox 121</browser>
+            <device_type>desktop</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST226</customer_id>
+        <customer_email>zack.frost@tech.net</customer_email>
+        <customer_name>Zack Frost</customer_name>
+        <subject>API key compromised</subject>
+        <description>I believe my API key may have been compromised. Please revoke it immediately and issue a new one. I see unauthorized API calls in my logs.</description>
+        <category>account_access</category>
+        <priority>urgent</priority>
+        <status>in_progress</status>
+        <tags>
+            <tag>security</tag>
+            <tag>api-key</tag>
+            <tag>compromised</tag>
+        </tags>
+        <metadata>
+            <source>phone</source>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST227</customer_id>
+        <customer_email>amy.brook@startup.io</customer_email>
+        <customer_name>Amy Brook</customer_name>
+        <subject>CORS errors on custom domain</subject>
+        <description>Getting CORS errors when using our custom domain. The requests work fine from localhost but fail when deployed to our domain.</description>
+        <category>technical_issue</category>
+        <priority>high</priority>
+        <status>new</status>
+        <tags>
+            <tag>cors</tag>
+            <tag>domain</tag>
+            <tag>deployment</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Chrome 120</browser>
+            <device_type>desktop</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST228</customer_id>
+        <customer_email>ben.grant@company.net</customer_email>
+        <customer_name>Ben Grant</customer_name>
+        <subject>Apply discount code retroactively</subject>
+        <description>I forgot to apply discount code NEWUSER20 when I signed up yesterday. Can you apply it to my subscription retroactively?</description>
+        <category>billing_question</category>
+        <priority>low</priority>
+        <status>new</status>
+        <tags>
+            <tag>discount</tag>
+            <tag>promo</tag>
+            <tag>retroactive</tag>
+        </tags>
+        <metadata>
+            <source>email</source>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST229</customer_id>
+        <customer_email>carla.marsh@enterprise.com</customer_email>
+        <customer_name>Carla Marsh</customer_name>
+        <subject>Data export in different formats</subject>
+        <description>Currently data can only be exported as CSV. Would like to export as Excel and PDF formats as well for easier sharing with stakeholders.</description>
+        <category>feature_request</category>
+        <priority>medium</priority>
+        <status>new</status>
+        <tags>
+            <tag>export</tag>
+            <tag>excel</tag>
+            <tag>pdf</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Safari 17</browser>
+            <device_type>desktop</device_type>
+        </metadata>
+    </ticket>
+    <ticket>
+        <customer_id>CUST230</customer_id>
+        <customer_email>derek.lane@agency.io</customer_email>
+        <customer_name>Derek Lane</customer_name>
+        <subject>Date picker shows wrong month</subject>
+        <description>The date picker always opens showing last month instead of the current month. Have to click next month every time to select today date.</description>
+        <category>bug_report</category>
+        <priority>low</priority>
+        <status>new</status>
+        <tags>
+            <tag>date</tag>
+            <tag>picker</tag>
+            <tag>ui</tag>
+        </tags>
+        <metadata>
+            <source>web_form</source>
+            <browser>Chrome 120</browser>
+            <device_type>mobile</device_type>
+        </metadata>
+    </ticket>
+</tickets>
